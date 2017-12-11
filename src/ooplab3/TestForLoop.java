@@ -8,7 +8,7 @@ public class TestForLoop {
 //             System.out.println("IS223");
 //    }
             for (int i=1;i<=100;i++) {
-                if (i % 3 == 0 && i % 5 == 0)
+                if (i % 2 == 0 && i % 4 == 0)
                     System.out.print(i + " ");
             }
 
