@@ -11,7 +11,7 @@ public class InputDatatoArray {
         number = inputData(number);
         showData(number);
         showDataEnchance(number);
-    }//main
+    }///main
 
     private static void showDataEnchance(int[] number) {
         System.out.println("Data in Array:");
