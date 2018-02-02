@@ -10,6 +10,9 @@ public class PersonApp {
         student.setName("Boy Saiyong");
         System.out.println(student.getName());
         System.out.println(student.toString());
+        Employee employee = new Employee("222222222222","beem","3 M.2 Cha-uat",
+                "Female","Manager",3000,"THAI Saowalak");
+        System.out.println(employee.toString());
 
     }//main
 }//class
