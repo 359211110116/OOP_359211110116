@@ -1,6 +1,7 @@
 package ooplab8;
 
 public class Circle implements Shape {
+    private final double pi = 3.14;
     private double r;
 
     public Circle(double r) {
@@ -17,6 +18,6 @@ public class Circle implements Shape {
 
     @Override
     public double findArea() {
-        return 3.14 * (r * r);
+        return pi * (r * r);
     }
 }//class
