@@ -14,5 +14,5 @@ public class myPerson {
         System.out.println(person.getJob().getSalary());
 
 
-    }//main
+    }///main
 }//class
